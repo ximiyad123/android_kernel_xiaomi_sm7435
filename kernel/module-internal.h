@@ -29,6 +29,3 @@ struct load_info {
 };
 
 extern int mod_verify_sig(const void *mod, struct load_info *info);
-
-extern unsigned long gki_quirks_get_hooked_symbol_value(const struct module *mod,
-                                               const char *name, unsigned long value);
